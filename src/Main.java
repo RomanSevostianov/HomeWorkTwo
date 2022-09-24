@@ -44,6 +44,8 @@ public class Main {
 
         System.out.println("Колличество сотрудников = "+employeeCom);
 
+
+
         var CommonFinish =  (employeeCom+94)*8;
 
         System.out.println("Всего часов = "+CommonFinish);
