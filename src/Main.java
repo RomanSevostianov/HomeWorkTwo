@@ -28,5 +28,12 @@ public class Main {
         System.out.println("Сat"+" = "+cat);
         System.out.println("Paper"+" = "+paper);
 
+        var sport1 = 78.2;
+        var sport2 = 82.7;
+        var common = sport1+sport2;
+        System.out.println("     ");
+
+        System.out.println("Common = "+ common);
+
     }
 }
