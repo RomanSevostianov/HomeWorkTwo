@@ -31,9 +31,21 @@ public class Main {
         var sport1 = 78.2;
         var sport2 = 82.7;
         var common = sport1+sport2;
+        var common2 = sport2-sport1;
+        var common3 = sport2%sport1;
         System.out.println("     ");
 
-        System.out.println("Common = "+ common);
+        System.out.println("Общее кол-во = "+ common);
+        System.out.println("Разница между бойцами = "+ common2);
+        System.out.println("Остаток от деления = "+ common3);
 
+        System.out.println("     ");
+        var employeeCom = 640/8;
+
+        System.out.println("Колличество сотрудников = "+employeeCom);
+
+        var CommonFinish =  (employeeCom+94)*8;
+
+        System.out.println("Всего часов = "+CommonFinish);
     }
 }
